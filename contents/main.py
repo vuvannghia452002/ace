@@ -119,6 +119,7 @@ def save_token(username,token):
         file.write(username + "\n")
         file.write(
             f"https://acenetwork.online/api/v1/client/subscribe?token={token}" + "\n")
+    print("Lưu token thành công!")
 
 
 def main():
